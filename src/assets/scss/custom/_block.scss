@@ -1,0 +1,11 @@
+@import "../variables";
+@import "../mixins";
+
+.translated{
+    // background-color: var(--color-primary);
+  @include line-height(1);
+  @include margin-bottom(1);
+  border-left: 10px solid var(--color-primary);
+  @include padding-left(1);
+  box-sizing: border-box;
+}
