@@ -18,11 +18,11 @@ const Feed: React.FC<Props> = ({ edges }: Props) => (
           <time
             className={styles.time}
             dateTime={new Date(edge.node.frontmatter.date).toLocaleDateString(
-              "en-US",
+              "ja",
               { year: "numeric", month: "long", day: "numeric" },
             )}
           >
-            {new Date(edge.node.frontmatter.date).toLocaleDateString("en-US", {
+            {new Date(edge.node.frontmatter.date).toLocaleDateString("ja", {
               year: "numeric",
               month: "long",
             })}
@@ -43,13 +43,13 @@ const Feed: React.FC<Props> = ({ edges }: Props) => (
           </Link>
         </h2>
         <p className={styles.description}>
-          {edge.node.frontmatter.description}
+          {edge.node.frontmatter.description || edge.node.excerpt}
         </p>
         <Link
           className={styles.more}
           to={edge.node.frontmatter?.slug || edge.node.fields.slug}
         >
-          Read
+          この記事を読む
         </Link>
       </div>
     ))}

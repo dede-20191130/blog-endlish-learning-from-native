@@ -93,7 +93,7 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
     const path = utils.concat(
       constants.routes.categoryRoute,
       "/",
-      utils.toKebabCase(category.fieldValue),
+      utils.toKebabCase(encodeURI(category.fieldValue)),
     );
 
     for (let page = 0; page < total; page += 1) {
@@ -114,7 +114,7 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
     const path = utils.concat(
       constants.routes.tagRoute,
       "/",
-      utils.toKebabCase(tag.fieldValue),
+      utils.toKebabCase(encodeURI(tag.fieldValue)),
     );
 
     const total = Math.ceil(tag.totalCount / postsLimit);

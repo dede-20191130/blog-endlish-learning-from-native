@@ -43,6 +43,7 @@ export const query = graphql`
           publicURL
         }
       }
+      excerpt
     }
   }
 `;
@@ -56,8 +57,9 @@ export const Head: React.FC<Props> = ({ data }) => {
       description: pageDescription = "",
       socialImage,
     },
+    excerpt
   } = data.markdownRemark;
-  const description = pageDescription || subtitle;
+  const description = pageDescription || excerpt || subtitle;
   const image = socialImage?.publicURL && url.concat(socialImage?.publicURL);
 
   return (

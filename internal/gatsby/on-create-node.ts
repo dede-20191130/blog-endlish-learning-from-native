@@ -34,7 +34,7 @@ const onCreateNode: GatsbyNode["onCreateNode"] = ({
         utils.concat(
           constants.routes.tagRoute,
           "/",
-          utils.toKebabCase(tag),
+          utils.toKebabCase(encodeURI(tag)),
           "/",
         ),
       );
@@ -46,7 +46,7 @@ const onCreateNode: GatsbyNode["onCreateNode"] = ({
       const value = utils.concat(
         constants.routes.categoryRoute,
         "/",
-        utils.toKebabCase(category),
+        utils.toKebabCase(encodeURI(category)),
         "/",
       );
 

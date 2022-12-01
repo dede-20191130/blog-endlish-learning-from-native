@@ -6,6 +6,7 @@ interface Node {
   fields: Fields;
   frontmatter: Frontmatter;
   html: string;
+  excerpt?: string;
 }
 
 export default Node;

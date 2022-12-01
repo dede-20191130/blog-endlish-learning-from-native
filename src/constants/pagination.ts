@@ -1,6 +1,6 @@
 const PAGINATION = {
-  PREV_PAGE: "← PREV",
-  NEXT_PAGE: "→ NEXT",
+  PREV_PAGE: "← 前へ",
+  NEXT_PAGE: "→ 次へ",
 };
 
 export default PAGINATION;

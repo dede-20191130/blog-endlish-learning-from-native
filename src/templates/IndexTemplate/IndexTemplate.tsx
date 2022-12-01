@@ -50,6 +50,7 @@ export const query = graphql`
     ) {
       edges {
         node {
+          excerpt
           fields {
             categorySlug
             slug

@@ -1,15 +1,15 @@
 {
-  "title": "Blog by John Doe",
+  "title": "Nativeの発信から英語を学ぼう",
   "url": "https://lumen.alxshelepenok.com",
-  "subtitle": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  "subtitle": "小説、インターネット上のブログなど、Nativeの発言、文章から英語を学ぶ。",
   "copyright": "© All rights reserved.",
   "googleAnalyticsId": "UA-73379983-2",
-  "disqusShortname": "",
+  "disqusShortname": "nativenofa-xin-karaying-yu-woxue-bou",
   "postsLimit": 4,
   "pathPrefix": "/",
   "menu": [
     {
-      "label": "Articles",
+      "label": "記事一覧",
       "path": "/"
     },
     {
@@ -22,19 +22,19 @@
     }
   ],
   "author": {
-    "name": "John Doe",
+    "name": "dede-20191130",
     "photo": "/photo.jpg",
-    "bio": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "bio": "小説、インターネット上のブログなど、Nativeの発言、文章から英語を学ぶサイトです。",
     "contacts": {
       "rss": "",
-      "email": "",
-      "github": "#",
-      "facebook": "#",
-      "telegram": "#",
-      "twitter": "#",
-      "linkedin": "#",
-      "instagram": "#",
-      "mastodon": "#",
+      "email": "1044adad@gmail.com",
+      "github": "dede-20191130",
+      "twitter": "D20191130",
+      "facebook": "",
+      "telegram": "",
+      "linkedin": "",
+      "instagram": "",
+      "mastodon": "",
       "line": "",
       "weibo": "",
       "gitlab": "",

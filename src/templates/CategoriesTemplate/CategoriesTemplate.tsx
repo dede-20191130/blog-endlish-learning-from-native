@@ -19,7 +19,7 @@ const CategoriesTemplate: React.FC = () => {
         <ul>
           {categories.map((category) => (
             <li key={category.fieldValue}>
-              <Link to={`/category/${toKebabCase(category.fieldValue)}/`}>
+              <Link to={`/category/${toKebabCase(encodeURI(category.fieldValue))}/`}>
                 {category.fieldValue} ({category.totalCount})
               </Link>
             </li>
