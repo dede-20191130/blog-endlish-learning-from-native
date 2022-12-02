@@ -24,6 +24,8 @@ const Meta: React.FC<Props> = ({ description, title, image }: Props) => (
         <meta name="twitter:image" content={image} />
       </>
     ) : null}
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7973433462255104"
+     crossOrigin="anonymous"></script>
   </>
 );
 

@@ -8,6 +8,7 @@ category: "プロジェクトグーテンベルグを読む"
 tags:
   - "プロジェクトグーテンベルグ"
   - "英語小説を読む"
+  - "英語学習"
 description: "プロジェクトグーテンベルグの「JACK THE RUNAWAY」を読むシリーズ。はじめにシリーズについて説明します。"
 socialImage: "../cover.jpg"
 ---

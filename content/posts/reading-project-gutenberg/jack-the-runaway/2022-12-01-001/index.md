@@ -8,6 +8,6 @@ category: "Undefined"
 tags:
   - "Undefined"
 description: "001"
-socialImage: "https://blog-english-learning-from-native.pages.dev/static/6d23def1cb1bb7e5b95b7d0fb36eaa96/47930/photo.jpg"
+socialImage: "../cover.jpg"
 ---
 
