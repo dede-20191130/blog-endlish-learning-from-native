@@ -16,7 +16,7 @@ socialImage: "../cover.jpg"
 
 ## このシリーズについて
 
-英語小説を読むことで、English Nativeの書く英語に慣れ親しもうというシリーズ。  
+英語小説や論評などの英語書籍を読むことで、English Nativeの書く英語に慣れ親しもうというシリーズ。  
 第一弾として、プロジェクトグーテンベルグに登録されている「JACK THE RUNAWAY」をカジュアルに訳しつつ読んでいこうと思います。
 
 ## プロジェクトグーテンベルグとは？
@@ -29,7 +29,7 @@ socialImage: "../cover.jpg"
 >
 >Project Gutenberg was the first provider of free electronic books, or eBooks. Michael Hart, founder of Project Gutenberg, invented eBooks in 1971 and his memory continues to inspire the creation of eBooks and related content today.
 
-<div class="translated">
+<div class="left-barred translated">
 プロジェクトグーテンベルクは無料の電子書籍のオンライン図書館です。<br/>
 プロジェクトグーテンベルクは無料の電子書籍、すなわちEブックを最初に提供した団体であり、その創始者の<i>Michael Hart</i>はEブックを発明し、<br/>
 彼の心は今もなおEブックや関連コンテンツの創造を刺激し続けています。

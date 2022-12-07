@@ -1,11 +1,32 @@
 @import "../variables";
 @import "../mixins";
 
-.translated{
+.left-barred{
     // background-color: var(--color-primary);
   @include line-height(1);
   @include margin-bottom(1);
-  border-left: 10px solid var(--color-primary);
+  border-left: 10px solid ;
   @include padding-left(1);
   box-sizing: border-box;
+  &.translated{
+    border-left-color: var(--color-primary);
+  }
+  &.raw{
+    border-left-color: var(--color-secondary);
+  }
+  &.thin-dotted{
+    border-left-width: 5px;
+    border-left-style: dotted;
+
+  }
+}
+
+.oneline-notify{
+  background-color: #9be0ff;
+  font-weight: bold;
+  &.belled{
+    &::before{
+      content: "🔔 ";
+    }
+  }
 }
