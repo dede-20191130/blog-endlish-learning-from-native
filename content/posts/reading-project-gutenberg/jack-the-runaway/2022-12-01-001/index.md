@@ -21,7 +21,9 @@ socialImage: "../cover.jpg"
 **CHAPTER I**  
 **JACK WANTS A DOLLAR**
 
-チャプターの最初から途中までです。
+チャプターの最初から途中までです。  
+
+[プロジェクトグーテンベルグの原文はこちら](https://www.gutenberg.org/files/68413/68413-h/68413-h.htm)
 
 ## 全文
 
