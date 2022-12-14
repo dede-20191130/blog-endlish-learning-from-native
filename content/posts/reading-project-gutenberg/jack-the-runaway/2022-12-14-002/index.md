@@ -87,7 +87,10 @@ Jackは街のショーに行きたいため、教授に１ドルを与えてく�
 
 <span class="oneline-notify belled">vaudeville</span>  
 ボードビルという一種の**寄席**の劇を指します。  
-[Youtubeに動画がありました。](https://www.youtube.com/watch?v=vZo4imTt4Og)
+
+Youtubeに動画がありました。
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vZo4imTt4Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 <div class="left-barred raw thin-dotted">
 
@@ -150,8 +153,6 @@ riotousは乱暴な、騒々しいという意味で、riotous livingは**馬鹿
 
 <span class="oneline-notify belled">vaudeville</span>  
 ボードビルという一種の**寄席**の劇を指します。  
-[Youtubeに動画がありました。](https://www.youtube.com/watch?v=vZo4imTt4Og)
-
 
 <span class="oneline-notify belled">rising generation</span>  
 **新しい世代、若者**
