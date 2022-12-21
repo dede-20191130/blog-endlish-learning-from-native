@@ -40,5 +40,6 @@ node_modules
 npm-shrinkwrap.json
 yarn.lock
 
-# trash
+# misc
 trash
+memo
